@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/database.js"></script>
+    <script defer src="./js/index.js"></script>
+</head>
+<body>
+        <header>
+            <h1 class="logo">Weartake</h1>
+            <div >
+                <button class="button">All</button>
+                <button class="button">Accessories</button>
+                <button class="button">Shoes</button>
+                <button class="button">Shirts</button>
+            </div>
+        </header>
+        <main>
+            <div class="itens">
+                <ul class="ulItens">
+                </ul>
+            </div>
+            <div class="searchCart">
+                <div class="search">
+                    <input class="searchType" type="text" placeholder="Type your search here.">
+                    <a class="searchButton" href="">Search</a>
+                </div>
+                <div class="cart">
+                    <h1 class="shoppingCart">Shopping Cart</h1>
+                    <ul class="ulCart">
+                    </ul>
+                    <div class="totalItens">
+                        <p class="quantity">Quantidade:</p>
+                        <p class="number" id="totalQuantity">0</p>
+                    </div>
+                    <div class="totalItens">
+                        <p class="quantity">Total:</p>
+                        <p class="number" id="totalPrice">R$ 00,00</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </main>
+</body>
+</html>
